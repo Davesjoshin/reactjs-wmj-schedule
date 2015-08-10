@@ -1,0 +1,42 @@
+body {
+  background-color: #F1F2F2;
+  color: #313742  ;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+.taskPreviewBox {
+  background-color: #FFFFFF;
+  color: #313742  ;
+  padding:10px;
+  outline-color: #313742;
+  outline-width: 1px;
+  outline-style: solid;
+  width: 66%;
+  margin: 10px;
+}
+
+.taskTitle {
+  font-size: 1.25rem;
+
+}
+
+.taskProject {
+  font-size: 0.75rem;
+  margin: 0px 0px 15px 0px;
+}
+
+.taskStartDate {
+  font-size: 0.75rem;
+}
+
+.taskDueDate {
+  font-size: 0.75rem;
+}
+
+.taskDescription {
+  font-size: 0.75rem;
+}

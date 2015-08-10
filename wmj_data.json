@@ -1,0 +1,37 @@
+var wmj_data = [
+  {
+    title: "Push MMGYGlobal to Production",
+    description: "Push the changes to MMGYGlobal live. Visit http://www.mmgyglobal.com",
+    project: "-MMG100 MMGYGlobal",
+    startDate: "8/16/2015",
+    dueDate: "8/16/2015"
+  },
+  {
+    title: "Regression testing on Stage",
+    description: "Take several hours to look at Stage and find any bugs.",
+    project: "-DHR100 Destination Hotels",
+    startDate: "8/15/2015",
+    dueDate: "8/15/2015"
+  },
+  {
+    title: "Test troubleshooting tickets",
+    description: "Please test the tickets that are 'Ready for Prod' on Stage.",
+    project: "-WAR500 Warwick Hotels",
+    startDate: "8/15/2015",
+    dueDate: "8/15/2015"
+  },
+  {
+    title: "Push to Production",
+    description: "Please push the troubleshooting tickets to Prod.",
+    project: "-DHR100 Destination Hotels",
+    startDate: "8/15/2015",
+    dueDate: "8/15/2015"
+  },
+  {
+    title: "Kick off meeting",
+    description: "Let's meet up and go over the new project.",
+    project: "-WAR500 Warwick Hotels",
+    startDate: "8/15/2015",
+    dueDate: "8/15/2015"
+  }
+];

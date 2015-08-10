@@ -1,0 +1,66 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WMJ Schedule</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="wmj_data.json"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="content"></div>
+    <script type="text/jsx">
+
+    //Box for each individual task.
+    var TaskPreviewBox = React.createClass({
+      render: function() {
+        return (
+          <div className="taskPreviewBox">
+            <div className="taskTitle">{this.props.title}</div>
+            <div className="taskProject">{this.props.project}</div>
+            <div className="taskStartDate">Start {this.props.startDate}</div>
+            <div className="taskDueDate">Due {this.props.dueDate}</div>
+            <div className="taskDescription">{this.props.description}</div>
+          </div>
+        );
+      }
+    });
+
+
+    //Main App component
+    var App = React.createClass({
+
+      //get the data in wmj_data
+      getInitialState: function() {
+        return {
+          wmj_data: wmj_data
+        }
+      },
+
+      render: function (){
+        return (
+          <div>
+            {this.state.wmj_data.map(function (task) {
+              return (
+                <TaskPreviewBox title={task.title} project={task.project} description={task.description} startDate={task.startDate} dueDate={task.dueDate}></TaskPreviewBox>
+              )
+            })}
+          </div>
+        );
+      }
+    });
+
+    //Got to have the renderer
+    React.render(
+        <App/>,
+      document.getElementById('content')
+    );
+
+    </script>
+
+  </body>
+</html>
