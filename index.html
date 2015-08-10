@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="jquery-2.1.4.min.js"></script>
     <script src="wmj_data.json"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script> -->
     <link rel="stylesheet" href="style.css">
@@ -22,6 +23,7 @@
           <div className="taskPreviewBox">
             <div className="taskTitle">{this.props.title}</div>
             <div className="taskProject">{this.props.project}</div>
+            <div className="expandButton"><img src="imgs/expand.png" alt="read more"  height="40" width="40"/></div>
             <div className="taskStartDate">Start {this.props.startDate}</div>
             <div className="taskDueDate">Due {this.props.dueDate}</div>
             <div className="taskDescription">{this.props.description}</div>
@@ -30,17 +32,14 @@
       }
     });
 
-
     //Main App component
     var App = React.createClass({
-
       //get the data in wmj_data
       getInitialState: function() {
         return {
           wmj_data: wmj_data
         }
       },
-
       render: function (){
         return (
           <div>
