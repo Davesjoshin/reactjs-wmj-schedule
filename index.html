@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,9 +20,13 @@
       render: function() {
         return (
           <div className="taskPreviewBox">
-            <div className="taskTitle">{this.props.title}</div>
-            <div className="taskProject">{this.props.project}</div>
-            <div className="expandButton"><img src="imgs/expand.png" alt="read more"  height="40" width="40"/></div>
+            <div className="previewBoxTopLeft">
+              <div className="taskTitle">{this.props.title}</div>
+              <div className="taskProject">{this.props.project}</div>
+            </div>
+            <div className="previewBoxTopRight">
+              <div className="expandButton"><div className="center">Expand</div></div>
+            </div>
             <div className="taskStartDate">Start {this.props.startDate}</div>
             <div className="taskDueDate">Due {this.props.dueDate}</div>
             <div className="taskDescription">{this.props.description}</div>

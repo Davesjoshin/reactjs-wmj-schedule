@@ -8,6 +8,10 @@ p {
   font-size: 0.75rem;
 }
 
+.center {
+  text-align: center;
+}
+
 .taskPreviewBox {
   background-color: #FFFFFF;
   color: #313742  ;
@@ -15,7 +19,7 @@ p {
   outline-color: #313742;
   outline-width: 1px;
   outline-style: solid;
-  width: 66%;
+  width: 90%;
   margin: 10px;
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
@@ -34,14 +38,21 @@ p {
 
 .taskStartDate {
   font-size: 0.75rem;
+  display: block;
+  width: 100%;
 }
 
 .taskDueDate {
   font-size: 0.75rem;
+  display: block;
+  width: 100%;
 }
 
 .taskDescription {
   font-size: 0.75rem;
+  display: block;
+  width: 100%;
+  background-color: red;
 }
 
 .hidden {
@@ -50,4 +61,25 @@ p {
 
 .visible {
   /* */
+}
+
+.expandButton {
+   display: inline-block;
+   position: relative;
+   width: 120px;
+   height: 32px;
+   line-height: 32px;
+   border-radius: 2px;
+   font-size: 0.9em;
+   background-color: #0f9d58;
+   color: #fff;
+   float: right;
+}
+
+.previewBoxTopLeft {
+
+}
+
+.previewBoxTopRight {
+
 }
