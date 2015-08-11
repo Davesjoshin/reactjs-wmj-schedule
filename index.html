@@ -5,32 +5,38 @@
     <title>WMJ Schedule</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="jquery-2.1.4.min.js"></script>
     <script src="wmj_data.json"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script> -->
+    <script src="jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="jfunc.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <div id="content"></div>
+
+
     <script type="text/jsx">
 
     //Box for each individual task.
     var TaskPreviewBox = React.createClass({
       render: function() {
         return (
-          <div className="taskPreviewBox">
-            <div className="previewBoxTopLeft">
-              <div className="taskTitle">{this.props.title}</div>
-              <div className="taskProject">{this.props.project}</div>
+          <div>
+            <div className="taskPreviewBox">
+
+            <input type="button" value="Expand" className="expandButton"/>
+                <div className="previewBoxLeft">
+                  <div className="taskTitle">{this.props.title}</div>
+                  <div className="taskProject">{this.props.project}</div>
+                </div>
+                <div id="taskInformation"className="previewBoxLeft hidden">
+                  <div className="taskStartDate">Start {this.props.startDate}</div>
+                  <div className="taskDueDate">Due {this.props.dueDate}</div>
+                  <div className="taskDescription">{this.props.description}</div>
+                </div>
+              </div>
             </div>
-            <div className="previewBoxTopRight">
-              <div className="expandButton"><div className="center">Expand</div></div>
-            </div>
-            <div className="taskStartDate">Start {this.props.startDate}</div>
-            <div className="taskDueDate">Due {this.props.dueDate}</div>
-            <div className="taskDescription">{this.props.description}</div>
-          </div>
         );
       }
     });
@@ -61,8 +67,12 @@
         <App/>,
       document.getElementById('content')
     );
-
     </script>
+
+    <!--
+    Tags for non-native 'Expand' button
+    <div className="expandButton center">Expand</div>
+    -->
 
   </body>
 </html>

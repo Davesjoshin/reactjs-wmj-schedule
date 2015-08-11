@@ -1,14 +1,14 @@
 var wmj_data = [
   {
     title: "Push MMGYGlobal to Production",
-    description: "Push the changes to MMGYGlobal live. Visit http://www.mmgyglobal.com",
+    description: "Lorem ipsum dolor sit sto luctus ligula eu semper orci purus vitae enimdoSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremlor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enim",
     project: "-MMG100 MMGYGlobal",
-    startDate: "8/17/2015",
-    dueDate: "8/17/2015"
+    startDate: "8/18/2015",
+    dueDate: "8/18/2015"
   },
   {
     title: "Regression testing on Stage",
-    description: "Take several hours to look at Stage and find any bugs.",
+    description: "Lorem ipsum dolor sit sto luctus ligula eu semper orci purus vitae enimdoSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremlor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enim",
     project: "-DHR100 Destination Hotels",
     startDate: "8/17/2015",
     dueDate: "8/17/2015"
@@ -22,7 +22,7 @@ var wmj_data = [
   },
   {
     title: "Push to Production",
-    description: "Please push the troubleshooting tickets to Prod.",
+    description: "Lorem ipsum dolor sit sto luctus ligula eu semper orci purus vitae enimdoSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremSuspendisse pretium et velit sed fermentum. Donec sodales arcu tellus, eu lacinia neque euismod at. Nullam laoreet loremlor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enimdolor sit sto luctus ligula eu semper orci purus vitae enim",
     project: "-DHR100 Destination Hotels",
     startDate: "8/17/2015",
     dueDate: "8/17/2015"
