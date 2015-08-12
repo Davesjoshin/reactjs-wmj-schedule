@@ -24,8 +24,7 @@
         return (
           <div>
             <div className="taskPreviewBox">
-
-            <input type="button" value="Expand" className="expandButton"/>
+              <div className="expandButton center">Expand</div>
                 <div className="previewBoxLeft">
                   <div className="taskTitle">{this.props.title}</div>
                   <div className="taskProject">{this.props.project}</div>
@@ -70,8 +69,8 @@
     </script>
 
     <!--
-    Tags for non-native 'Expand' button
-    <div className="expandButton center">Expand</div>
+    Tags for native 'Expand' button
+    <input type="button" value="Expand" className="expandButton"/>
     -->
 
   </body>
