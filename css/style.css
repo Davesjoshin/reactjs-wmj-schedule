@@ -65,11 +65,6 @@ p {
   display: none;
 }
 
-.visible {
-  /* */
-}
-
-
 .expandButton {
    display: inline-block;
    position: relative;
@@ -78,10 +73,10 @@ p {
    line-height: 32px;
    /* border-radius: 5px; */
    font-size: 0.9em;
-   background-color: #66BB6A;
-   color: #fff;
+   background-color: #4DD0E1;
+   color: #313742;
    float: right;
-   outline-color: #313742;
+   /* outline-color: #313742; */
    outline-width: 1px;
    outline-style: solid;
    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -90,7 +85,4 @@ p {
 
 .previewBoxLeft {
 width: 80%
-}
-
-.previewBoxRight {
 }
