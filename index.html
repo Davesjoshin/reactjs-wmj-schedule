@@ -7,13 +7,22 @@
     <script src="js/JSXTransformer.js"></script>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/jfunc.js"></script>
-    <!-- NOT USING AT THE MOMENT <script src="js/jquery-ui.min.js"></script> -->
     <script src="wmj_data.json"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- NOT USING AT THE MOMENT <script src="js/jquery-ui.min.js"></script> -->
+
+    <!-- Bootstrap CDN -->
+    <!-- NOT USING AT THE MOMENT <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <!-- NOT USING AT THE MOMENT <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+    <!-- NOT USING AT THE MOMENT <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
   </head>
 
   <body>
     <div id="content"></div>
+
     <script type="text/jsx">
 
     //Box for each individual task.
@@ -23,24 +32,25 @@
           <div>
             <div className="taskPreviewBox">
 
-              <div className="expandButton center">Expand</div>
-
-                <div className="previewBoxLeft">
-                  <div className="taskTitle">{this.props.title}</div>
-                  <div className="taskProject">{this.props.project}</div>
-                </div>
-
-                <div id="taskInformation"className="previewBoxLeft hidden">
-                  <div className="taskTitle">{this.props.title}</div>
-                  <div className="taskProject">{this.props.project}</div>
-                  <div className="taskStartDate">Start {this.props.startDate}</div>
-                  <div className="taskDueDate">Due {this.props.dueDate}</div>
-
-                  <div className="taskDescription">{this.props.description}</div>
-                </div>
-
+              <div className="expandButton center">
+                <span className="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
               </div>
+
+              <div className="previewBoxLeft">
+                <div className="taskTitle">{this.props.title}</div>
+                <div className="taskProject">{this.props.project}</div>
+              </div>
+
+              <div id="taskInformation"className="previewBoxLeft hidden">
+                <div className="taskTitle">{this.props.title}</div>
+                <div className="taskProject">{this.props.project}</div>
+                <div className="taskStartDate">Start {this.props.startDate}</div>
+                <div className="taskDueDate">Due {this.props.dueDate}</div>
+                <div className="taskDescription">{this.props.description}</div>
+              </div>
+
             </div>
+          </div>
         );
       }
     });

@@ -12,8 +12,51 @@ p {
   text-align: center;
 }
 
+.expandButton {
+   display: inline-block;
+   position: relative;
+   width: 32px;
+   height: 32px;
+   line-height: 32px;
+   font-size: 0.9em;
+   background-color: #4DD0E1;
+   color: #ffffff;
+   float: right;
+   /* outline-color: #313742;
+   outline-width: 1px;
+   outline-style: solid; */
+   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+   transition-delay: 0.2s;
+   border-radius: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.previewBoxLeft {
+width: 80%
+}
+
+.taskDescription {
+  font-size: 1.25rem;
+  display: block;
+  width: 100%;
+  font-family: serif;
+  margin: 15px 0px 0px 0px;
+  /* background-color: red; */
+}
+
+.taskDueDate {
+  font-size: 1.00rem;
+  display: block;
+  width: 100%;
+  /* background-color: blue; */
+}
+
 .taskPreviewBox {
-  margin: 15px auto 15px auto;
+  float: none;
+  margin: 5px auto 5px auto;
   background-color: #FFFFFF;
   color: #313742  ;
   padding:10px;
@@ -26,63 +69,21 @@ p {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.40);
 }
 
-.taskTitle {
-  font-size: 1.25rem;
-  /* background-color: brown; */
-
-}
-
 .taskProject {
-  font-size: 0.75rem;
+  font-size: 1.00rem;
   margin: 0px 0px 15px 0px;
   /* background: yellow; */
 }
 
+.taskTitle {
+  font-size: 1.75rem;
+  /* background-color: brown; */
+
+}
+
 .taskStartDate {
-  font-size: 0.75rem;
+  font-size: 1.00rem;
   display: block;
   width: 100%;
   /* background-color: pink; */
-}
-
-.taskDueDate {
-  font-size: 0.75rem;
-  display: block;
-  width: 100%;
-  /* background-color: blue; */
-}
-
-.taskDescription {
-  font-size: 0.75rem;
-  display: block;
-  width: 100%;
-  font-family: serif;
-  margin: 15px 0px 0px 0px;
-  /* background-color: red; */
-}
-
-.hidden {
-  display: none;
-}
-
-.expandButton {
-   display: inline-block;
-   position: relative;
-   width: 120px;
-   height: 32px;
-   line-height: 32px;
-   /* border-radius: 5px; */
-   font-size: 0.9em;
-   background-color: #4DD0E1;
-   color: #313742;
-   float: right;
-   /* outline-color: #313742; */
-   outline-width: 1px;
-   outline-style: solid;
-   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-   transition-delay: 0.2s;
-}
-
-.previewBoxLeft {
-width: 80%
 }
